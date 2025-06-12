@@ -15,3 +15,6 @@ done >/dev/null 2>&1
 
 # Ensure that xrdb has finished running before moving on to start the WM/DE.
 [ -n "$xrdbpid" ] && wait "$xrdbpid"
+
+# Added the ability to switch languages
+setxkbmap -layout us,ru -option grp:ctrl_shift_toggle
