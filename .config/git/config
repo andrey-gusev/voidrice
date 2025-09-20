@@ -1,0 +1,7 @@
+[user]
+	name = andrey-gusev
+	email = anderson14766@mail.ru
+[color]
+	ui = auto
+[core]
+	editor = nvim
