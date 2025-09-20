@@ -5,3 +5,5 @@
 	ui = auto
 [core]
 	editor = nvim
+[url "git@github.com:org/"]
+	insteadOf = "https://github.com/org/"
